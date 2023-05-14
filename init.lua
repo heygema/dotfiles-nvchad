@@ -8,4 +8,4 @@
 
 vim.o.number = true
 vim.o.relativenumber = true
--- vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "80"
