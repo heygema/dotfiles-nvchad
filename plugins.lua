@@ -47,6 +47,13 @@ local plugins = {
     end,
   },
 
+  {
+    "karb94/neoscroll.nvim"
+  },
+  {
+    "sigmasd/deno-nvim"
+  }
+
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",

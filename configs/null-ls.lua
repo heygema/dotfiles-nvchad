@@ -21,7 +21,7 @@ local sources = {
 
 local on_attach = function(client)
     if client.server_capabilities.documentFormattingProvider then
-      vim.cmd("nnoremap <silent><buffer> <Leader>[ :lua vim.lsp.buf.formatting()<CR>")
+      vim.cmd("nnoremap <silent><buffer> <Leader>[ :lua vim.lsp.buf.format()<CR>")
       -- format on save
       --vim.cmd("autocmd BufWritePost <buffer> lua vim.lsp.buf.format({ async = true})")
     end

@@ -8,4 +8,5 @@
 
 vim.o.number = true
 vim.o.relativenumber = true
-vim.opt.colorcolumn = "80"
+-- require('neoscroll').setup()
+-- vim.opt.colorcolumn = "80"
